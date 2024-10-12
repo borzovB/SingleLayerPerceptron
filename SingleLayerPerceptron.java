@@ -437,63 +437,64 @@ public class SingleLayerPerceptron {
         // Тестирование на распознавание нуля
         int[] predictions_0 = perceptron.predict(Null_test);
         for (int prediction : predictions_0) {
-            System.out.println("Predicted: " + prediction);
+            System.out.println("Цифра: " + prediction);
         }
 
         // Тестирование на распознавание единицы
         int[] predictions_1 = perceptron.predict(One_test);
         for (int prediction : predictions_1) {
-            System.out.println("Predicted: " + prediction);
+            System.out.println("Цифра: " + prediction);
         }
 
         // Тестирование на распознавание четвёрки
         int[] predictions_4 = perceptron.predict(Four_test);
         for (int prediction : predictions_4) {
-            System.out.println("Predicted: " + prediction);
+            System.out.println("Цифра: " + prediction);
         }
 
         // Тестирование на распознавание двойки
         int[] predictions_2 = perceptron.predict(Two_test);
         for (int prediction : predictions_2) {
-            System.out.println("Predicted: " + prediction);
+            System.out.println("Цифра: " + prediction);
         }
 
         // Тестирование на распознавание тройки
         int[] predictions_3 = perceptron.predict(Three_test);
         for (int prediction : predictions_3) {
-            System.out.println("Predicted: " + prediction);
+            System.out.println("Цифра: " + prediction);
         }
 
         // Тестирование на распознавание шестёрки
         int[] predictions_6 = perceptron.predict(Six_test);
         for (int prediction : predictions_6) {
-            System.out.println("Predicted: " + prediction);
+            System.out.println("Цифра: " + prediction);
         }
 
         // Тестирование на распознавание пятёрки
         int[] predictions_5 = perceptron.predict(Five_test);
         for (int prediction : predictions_5) {
-            System.out.println("Predicted: " + prediction);
+            System.out.println("Цифра: " + prediction);
         }
 
         // Тестирование на распознавание семёрки
         int[] predictions_7 = perceptron.predict(Seven_test);
         for (int prediction : predictions_7) {
-            System.out.println("Predicted: " + prediction);
+            System.out.println("Цифра: " + prediction);
         }
 
         // Тестирование на распознавание девятки
         int[] predictions_9 = perceptron.predict(Nine_test);
         for (int prediction : predictions_9) {
-            System.out.println("Predicted: " + prediction);
+            System.out.println("Цифра: " + prediction);
         }
 
         // Тестирование на распознавание восьмёрки
         int[] predictions_8 = perceptron.predict(Eight_test);
         for (int prediction : predictions_8) {
-            System.out.println("Predicted: " + prediction);
+            System.out.println("Цифра: " + prediction);
         }
 
     }
 }
+
 
